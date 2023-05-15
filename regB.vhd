@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 
 
-entity A is
+entity B is
 Port (
            clock     : in std_logic;
            DataIn  : in STD_LOGIC_VECTOR (31 downto 0);
@@ -11,9 +11,9 @@ Port (
 
 
  );
-end A;
+end B;
 
-architecture Behavioral of A is
+architecture Behavioral of B is
 
 begin
     process(DataIn, clock)
